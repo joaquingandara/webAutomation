@@ -1,0 +1,50 @@
+# Archivos de configuración del sistema
+.DS_Store
+Thumbs.db
+
+# Entornos virtuales
+venv/
+.env/
+*.env
+
+# Archivos compilados de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Archivos de base de datos
+*.sqlite3
+
+# Archivos de caché y logs
+*.log
+*.tmp
+*.cache
+
+# Archivos generados por IDEs y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Directorios de pruebas y cobertura
+.coverage
+nosetests.xml
+pytest.log
+
+# Archivos generados por pipenv
+Pipfile.lock
+
+# Archivos generados por pytest
+*.cover
+*.hypothesis/
+*.pytest_cache/
+
+# Archivos generados por herramientas de build
+build/
+dist/
+*.egg-info/
+
+# Archivos y carpetas generados por el sistema operativo
+*.bak
+*.swp
